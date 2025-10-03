@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Install NCS</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111; /* solid dark background */
+      font-family: 'Arial', sans-serif;
+      color: white;
+      overflow: hidden;
+    }
+
+    .card {
+      position: relative;
+      background: rgba(20, 20, 20, 0.6);
+      backdrop-filter: blur(25px);
+      border-radius: 20px;
+      padding: 40px 60px;
+      text-align: center;
+      box-shadow: 0 0 40px rgba(255, 0, 100, 0.5), 0 0 80px rgba(255, 0, 100, 0.3) inset;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 20px rgba(255, 0, 100, 0.8);
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      opacity: 0.8;
+    }
+
+    .install-btn {
+      display: inline-block;
+      padding: 20px 50px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(45deg, #ff003c, #ff6a00, #ff003c);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      box-shadow: 0 0 30px rgba(255, 0, 60, 0.9), 0 0 60px rgba(255, 106, 0, 0.8);
+      transition: transform 0.3s ease;
+    }
+
+    .install-btn:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 40px rgba(255, 0, 80, 1), 0 0 100px rgba(255, 100, 0, 1);
+    }
+      100% { transform: translateX(-50%); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Install NCS</h1>
+    <p>Nio Communication System</p>
+    <a class="install-btn" href="https://github.com/vahinT/NCS/releases/download/v4.1.1/NCS.exe" target="_blank">INSTALL NCS</a>
+  </div>
+</body>
+</html>
